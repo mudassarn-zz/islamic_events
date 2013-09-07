@@ -1,4 +1,7 @@
 IslamicEvents::Application.routes.draw do
+
+  get "islamic_events/home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
