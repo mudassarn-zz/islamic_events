@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81a9f17d-c7dd-415e-89a5-1143783a2c83" name="Default" comment="" />
+    <list default="true" id="81a9f17d-c7dd-415e-89a5-1143783a2c83" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/speaker_spec.rb" afterPath="$PROJECT_DIR$/spec/models/speaker_spec.rb" />
+    </list>
     <ignored path="islamic_events.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378560135449" ignored="false" />
@@ -15,7 +17,8 @@
     <file path="$PROJECT_DIR$/../sample_app/app/views/static_pages/help.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378610544214" ignored="false" />
     <file path="$PROJECT_DIR$/../sample_app/config/routes.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378610544214" ignored="false" />
     <file path="$PROJECT_DIR$/../sample_app/spec/requests/static_pages_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378610544214" ignored="false" />
-    <file path="/speaker_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378611728447" ignored="false" />
+    <file path="/speaker_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378612250433" ignored="false" />
+    <file path="/speaker.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378612369078" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +38,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="speaker.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="speaker.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/speaker.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="1" column="33" selection-start="68" selection-end="68" vertical-scroll-proportion="0.02209131">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="speaker_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="speaker_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/speaker_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="42" selection-end="42" vertical-scroll-proportion="0.04418262">
+            <state line="6" column="26" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -76,6 +79,7 @@
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/islamic_events/home.html.erb" />
         <option value="$PROJECT_DIR$/spec/models/speaker_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/speaker.rb" />
       </list>
     </option>
   </component>
@@ -192,6 +196,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="islamic_events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="islamic_events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -575,16 +597,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/speaker.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/speaker_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="6" column="26" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/speaker_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/speaker.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="42" selection-end="42" vertical-scroll-proportion="0.04418262">
+        <state line="1" column="33" selection-start="68" selection-end="68" vertical-scroll-proportion="0.02209131">
           <folding />
         </state>
       </provider>
