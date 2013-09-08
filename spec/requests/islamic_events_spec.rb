@@ -8,7 +8,7 @@ describe "IslamicEvents" do
     #  response.status.should be(200)
     #end
     it "should have 'Home' in contents" do
-      visit '/islamic_events/home'
+      visit home_path
       expect(page).to have_content("Home")
     end
   end

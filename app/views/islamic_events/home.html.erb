@@ -1,3 +1,27 @@
-<h1>IslamicEvents#Home</h1>
-<p>Find me in app/views/islamic_events/home.html.erb</p>
+<h1>IslamicEvents</h1>
+<%=link_to "Events", root_path %>
+<%=link_to "Speakers", "#"%>
+<h2>Upcoming Events</h2>
+<table border="1" >
+  <tr>
+    <th>Topic</th>
+    <th>Purpose</th>
+    <th>Venue</th>
+    <th>Schedule</th>
+    <th>Duration</th>
+    <th>Speaker</th>
+  </tr>
+  <% @events.each do |event| %>
+  <tr>
+
+    <td><%=event.topic%></td>
+    <td><%=event.purpose%></td>
+    <td><%=[event.street_address_line1, event.street_address_line2, event.city, event.province].join(",")%></td>
+    <td><%=event.start_date%></td>
+    <td><%=event.duration%> Hours</td>
+    <td><%=link_to event.speaker.name, '#'%></td>
+
+  </tr>
+  <%end%>
+</table>
 

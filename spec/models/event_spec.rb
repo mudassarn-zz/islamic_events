@@ -29,9 +29,9 @@ describe Event do
   it { should respond_to(:city) }
   it { should respond_to(:province) }
   it { should respond_to(:start_date) }
-  it { should respond_to(:duration)}
-  it { should respond_to(:speaker_id)}
-  it { should respond_to(:speaker)}
+  it { should respond_to(:duration) }
+  it { should respond_to(:speaker_id) }
+  it { should respond_to(:speaker) }
   its(:speaker) {should eq @speaker}
 
   describe "when topic is blank" do
