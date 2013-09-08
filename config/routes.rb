@@ -2,8 +2,8 @@ IslamicEvents::Application.routes.draw do
   get "speakers/all"
 
   root to: 'IslamicEvents#home'
-  #get "islamic_events/home"
   match "/home", to: 'IslamicEvents#home'
+  match "/speakers", to: 'Speakers#all'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

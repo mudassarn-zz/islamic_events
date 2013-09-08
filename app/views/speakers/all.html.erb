@@ -1,0 +1,21 @@
+<h1>IslamicEvents</h1>
+<%=link_to "Events", root_path %>
+<%=link_to "Speakers", speakers_path %>
+<h2>Distinguished Speakers</h2>
+<table border="1" >
+  <tr>
+    <th>Name</th>
+    <th>Profile</th>
+    <th></th>
+  </tr>
+
+  <% @speakers.each do |speaker| %>
+      <tr>
+
+        <td><%=speaker.name%></td>
+        <td><%=speaker.profile%></td>
+        <td><%=link_to "events", "#" %></td>
+
+      </tr>
+  <%end%>
+</table>
