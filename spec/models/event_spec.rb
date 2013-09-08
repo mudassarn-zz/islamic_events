@@ -2,7 +2,12 @@ require 'spec_helper'
 
 describe Event do
   before do
-    @event = Event.new
+    @speaker= Speaker.new
+    @speaker.name="Mudassar"
+    @speaker.profile="This is my first talk"
+    @speaker.save
+
+    @event = @speaker.events.build
     @event.topic="Purpose of Life"
     @event.purpose="This short talk will discuss purpose of life"
     @event.street_address_line1="Lahore University of Management Sciences"
@@ -11,6 +16,8 @@ describe Event do
     @event.province="Punjab"
     @event.start_date=Time.new(2014, 7,1,10)
     @event.duration=2
+    #@event.speaker_id = @speaker.id
+
   end
 
   subject {@event}
@@ -23,6 +30,9 @@ describe Event do
   it { should respond_to(:province) }
   it { should respond_to(:start_date) }
   it { should respond_to(:duration)}
+  it { should respond_to(:speaker_id)}
+  it { should respond_to(:speaker)}
+  its(:speaker) {should eq @speaker}
 
   describe "when topic is blank" do
     before {@event.topic=" "}
@@ -54,7 +64,6 @@ describe Event do
     it { should_not be_valid}
   end
 
-
   #describe "when start date or time in past" do
   #  before {@event.start_date=Time.new(2008)}
   #  it {should_not be_valid}
@@ -70,5 +79,8 @@ describe Event do
     it { should_not be_valid}
   end
 
-
+  describe "when event does not have speaker_id" do
+    before {@event.speaker_id=nil}
+    it {should_not be_valid}
+  end
 end

@@ -12,6 +12,7 @@ describe Speaker do
 
   it { should respond_to(:name) }
   it { should respond_to(:profile) }
+  it { should respond_to(:events) }
 
 
   describe "when name and profile both are not blank" do
