@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81a9f17d-c7dd-415e-89a5-1143783a2c83" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/speaker.rb" afterPath="$PROJECT_DIR$/app/models/speaker.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/speaker_spec.rb" afterPath="$PROJECT_DIR$/spec/models/speaker_spec.rb" />
     </list>
     <ignored path="islamic_events.iws" />
@@ -18,7 +19,7 @@
     <file path="$PROJECT_DIR$/../sample_app/config/routes.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378610544214" ignored="false" />
     <file path="$PROJECT_DIR$/../sample_app/spec/requests/static_pages_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378610544214" ignored="false" />
     <file path="/speaker_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378612250433" ignored="false" />
-    <file path="/speaker.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378612369078" ignored="false" />
+    <file path="/speaker.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378613681242" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +39,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="speaker.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="speaker.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/speaker.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="33" selection-start="68" selection-end="68" vertical-scroll-proportion="0.02209131">
+            <state line="3" column="34" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="speaker_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="speaker_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/models/speaker_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+            <state line="26" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.5743741">
               <folding />
             </state>
           </provider>
@@ -78,8 +79,8 @@
         <option value="$PROJECT_DIR$/spec/requests/islamic_events_spec.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/islamic_events/home.html.erb" />
-        <option value="$PROJECT_DIR$/spec/models/speaker_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/speaker.rb" />
+        <option value="$PROJECT_DIR$/spec/models/speaker_spec.rb" />
       </list>
     </option>
   </component>
@@ -597,16 +598,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/speaker_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/speaker.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+        <state line="3" column="34" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/speaker.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/speaker_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="33" selection-start="68" selection-end="68" vertical-scroll-proportion="0.02209131">
+        <state line="26" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.5743741">
           <folding />
         </state>
       </provider>
