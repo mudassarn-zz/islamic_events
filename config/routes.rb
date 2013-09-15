@@ -1,9 +1,14 @@
 IslamicEvents::Application.routes.draw do
-  get "speakers/all"
 
   root to: 'IslamicEvents#home'
-  match "/home", to: 'IslamicEvents#home'
-  match "/speakers", to: 'Speakers#all'
+  #match "/home", to: 'IslamicEvents#home'
+
+  # For Speakers controller
+  resources :speakers
+  #match "/speakers", to: 'Speakers#all'
+  #match "/create_speaker", to: 'Speakers#new'
+  #match "/speakers", to: 'Speakers#create', via: 'POST'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

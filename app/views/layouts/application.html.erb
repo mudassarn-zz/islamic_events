@@ -8,10 +8,15 @@
 </head>
 <body>
 <h1>IslamicEvents</h1>
+
 <%=link_to "Events", root_path %>
 <%=link_to "Speakers", speakers_path %>
 
+<% flash.each do |key, value| %>
+    <%=key%>,<%=value%>
+<% end %>
 <%= yield %>
 
+<%= debug(params) if Rails.env.development? %>
 </body>
 </html>

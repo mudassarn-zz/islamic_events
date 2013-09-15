@@ -2,22 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81a9f17d-c7dd-415e-89a5-1143783a2c83" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/speakers/all.html.erb" afterPath="$PROJECT_DIR$/app/views/speakers/all.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/islamic_events/create.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/speakers/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/speakers/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/requests/speaker_pages_spec.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/views/speakers/all.html.erb_spec.rb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/speakers/all.html.erb" afterPath="$PROJECT_DIR$/app/views/speakers/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/islamic_events.iml" afterPath="$PROJECT_DIR$/.idea/islamic_events.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/islamic_events/home.html.erb" afterPath="$PROJECT_DIR$/app/views/islamic_events/home.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/speakers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/speakers_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="islamic_events.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378560135449" ignored="false" />
-    <file path="/routes.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378676198808" ignored="false" />
+    <file path="/Dummy.txt" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379204311229" ignored="false" />
+    <file path="/routes.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379206264032" ignored="false" />
     <file path="/islamic_events_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378674104477" ignored="false" />
     <file path="/spec_helper.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378561596693" ignored="false" />
-    <file path="/home.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378676243252" ignored="false" />
-    <file path="$PROJECT_DIR$/../sample_app/app/views/layouts/application.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378610544214" ignored="false" />
+    <file path="/home.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379206312266" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/app/views/layouts/application.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379157794667" ignored="false" />
     <file path="$PROJECT_DIR$/../sample_app/app/views/static_pages/home.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378610544214" ignored="false" />
-    <file path="$PROJECT_DIR$/../sample_app/Gemfile" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378610544214" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/Gemfile" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379021380474" ignored="false" />
     <file path="$PROJECT_DIR$/../sample_app/app/views/static_pages/help.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378610544214" ignored="false" />
-    <file path="$PROJECT_DIR$/../sample_app/config/routes.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378610544214" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/config/routes.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379013974771" ignored="false" />
     <file path="$PROJECT_DIR$/../sample_app/spec/requests/static_pages_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378610544214" ignored="false" />
     <file path="/speaker_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378671521994" ignored="false" />
     <file path="/speaker.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378671279629" ignored="false" />
@@ -26,8 +38,37 @@
     <file path="/20130908045325_rename_provice_to_province.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378616111720" ignored="false" />
     <file path="/event.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378671671851" ignored="false" />
     <file path="/islamic_events_controller.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378674634128" ignored="false" />
-    <file path="/all.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378676426629" ignored="false" />
-    <file path="/speakers_controller.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378676502306" ignored="false" />
+    <file path="/all.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378689814494" ignored="false" />
+    <file path="/speakers_controller.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379204454052" ignored="false" />
+    <file path="/create.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378686652819" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/app/models/user.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379012508505" ignored="false" />
+    <file path="/user.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378964623950" ignored="false" />
+    <file path="/Gemfile" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379021372599" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/spec/models/user_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379012508505" ignored="false" />
+    <file path="/user_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378964849851" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/db/schema.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378851118513" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/db/migrate/20130908031436_add_password_digest_to_users.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379012508505" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/db/migrate/20130908004848_add_index_to_users_email.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379012508505" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/db/migrate/20130907223009_create_users.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379012508505" ignored="false" />
+    <file path="/application.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379202878771" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/app/assets/stylesheets/custom.css.scss" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379157157795" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/app/controllers/users_controller.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379157948725" ignored="false" />
+    <file path="/users_controller.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379157948725" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/app/views/users/show.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379104359068" ignored="false" />
+    <file path="/show.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379203558406" ignored="false" />
+    <file path="/factories.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379205031682" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/spec/factories.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379021727870" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/spec/requests/user_pages_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379132694776" ignored="false" />
+    <file path="/user_pages_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379132489236" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/config/environments/test.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379023943808" ignored="false" />
+    <file path="/test.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379023943808" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/app/helpers/users_helper.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379104834454" ignored="false" />
+    <file path="/users_helper.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379104834454" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/app/views/users/new.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379156723519" ignored="false" />
+    <file path="/new.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379203825396" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/app/views/shared/_error_messages.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379156506376" ignored="false" />
+    <file path="/index.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379202987270" ignored="false" />
+    <file path="/speaker_pages_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379205853583" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,33 +88,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="speaker.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/speaker.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="2" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="speaker_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/speaker_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="4" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="38" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="islamic_events_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/islamic_events_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,35 +100,86 @@
       <file leaf-file-name="speakers_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/speakers_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+            <state line="21" column="40" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="speaker_pages_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/requests/speaker_pages_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="-7.5">
+            <state line="15" column="72" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="3" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/islamic_events/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="19" column="52" selection-start="534" selection-end="534" vertical-scroll-proportion="0.45094937">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/speakers/all.html.erb">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="16" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factories.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/factories.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="11" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/speakers/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="63" selection-start="160" selection-end="160" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/islamic_events/create.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="25" selection-start="616" selection-end="616" vertical-scroll-proportion="-13.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/speakers/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="9" selection-start="711" selection-end="711" vertical-scroll-proportion="-16.25">
+              <folding>
+                <marker date="1379203844000" expanded="true" signature="126:403" placeholder="..." />
+                <marker date="1379203844000" expanded="true" signature="252:388" placeholder="..." />
+                <marker date="1379203844000" expanded="true" signature="442:518" placeholder="..." />
+                <marker date="1379203844000" expanded="true" signature="543:624" placeholder="..." />
+                <marker date="1379203844000" expanded="true" signature="650:700" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,20 +202,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130908044127_remove_start_time_from_events.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130908045325_rename_provice_to_province.rb" />
-        <option value="$PROJECT_DIR$/spec/models/speaker_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/speaker.rb" />
-        <option value="$PROJECT_DIR$/app/models/event.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/islamic_events_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/event_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/islamic_events_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/speakers_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/islamic_events/home.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/islamic_events/create.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/speakers/create.html.erb" />
         <option value="$PROJECT_DIR$/app/views/speakers/all.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/speakers/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/speakers/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/speakers/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/speakers_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/views/speakers/speaker_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/factories.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/requests/speaker_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/islamic_events/home.html.erb" />
       </list>
     </option>
   </component>
@@ -217,6 +284,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="islamic_events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="islamic_events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,6 +398,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="islamic_events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -364,6 +453,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="islamic_events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="islamic_events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="islamic_events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="islamic_events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -373,8 +502,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sample_app" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/speakers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/requests" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: islamic_events">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -481,6 +619,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -624,9 +769,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.67043847" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -634,7 +780,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -702,93 +847,44 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="27" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.8173785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130908044127_remove_start_time_from_events.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="123" selection-end="123" vertical-scroll-proportion="0.110456556">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130908042258_create_events.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130908045325_rename_provice_to_province.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="44" selection-start="174" selection-end="174" vertical-scroll-proportion="0.13254787">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/islamic_events_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="44" selection-start="183" selection-end="183" vertical-scroll-proportion="0.20579268">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/islamic_events_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="382" selection-end="382" vertical-scroll-proportion="0.22865854">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/event_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="923" selection-end="923" vertical-scroll-proportion="0.70884144">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/event.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="73" selection-start="193" selection-end="535" vertical-scroll-proportion="0.22865854">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/speaker_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+        <state line="6" column="20" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/speaker.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/speakers/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="-7.5">
+        <state line="10" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="-6.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/speakers_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/speakers.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/islamic_events.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/islamic_events/create.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="25" selection-start="616" selection-end="616" vertical-scroll-proportion="-13.125">
           <folding />
         </state>
       </provider>
@@ -800,16 +896,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/islamic_events/home.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/speakers_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="21" column="40" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/speakers/all.html.erb">
+    <entry file="file://$PROJECT_DIR$/spec/factories.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="4" column="11" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/speakers/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="9" selection-start="711" selection-end="711" vertical-scroll-proportion="-16.25">
+          <folding>
+            <marker date="1379203844000" expanded="true" signature="126:403" placeholder="..." />
+            <marker date="1379203844000" expanded="true" signature="252:388" placeholder="..." />
+            <marker date="1379203844000" expanded="true" signature="442:518" placeholder="..." />
+            <marker date="1379203844000" expanded="true" signature="543:624" placeholder="..." />
+            <marker date="1379203844000" expanded="true" signature="650:700" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/speakers/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="63" selection-start="160" selection-end="160" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/speaker_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="72" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="3" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/islamic_events/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="52" selection-start="534" selection-end="534" vertical-scroll-proportion="0.45094937">
           <folding />
         </state>
       </provider>

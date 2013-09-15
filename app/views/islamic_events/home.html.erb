@@ -16,7 +16,7 @@
     <td><%=[event.street_address_line1, event.street_address_line2, event.city, event.province].join(",")%></td>
     <td><%=event.start_date%></td>
     <td><%=event.duration%> Hours</td>
-    <td><%=link_to event.speaker.name, '#'%></td>
+    <td><%=link_to event.speaker.name, event.speaker %></td>
 
   </tr>
   <%end%>
