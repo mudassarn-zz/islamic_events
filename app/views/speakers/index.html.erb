@@ -13,6 +13,8 @@
         <td><%=speaker.name%></td>
         <td><%=speaker.profile%></td>
         <td><%=link_to "events", "#" %></td>
+        <td><%=link_to "Edit", edit_speaker_path(speaker) %></td>
+        <td><%=link_to "Delete", "#" %></td>
 
       </tr>
   <%end%>

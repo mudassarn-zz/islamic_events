@@ -21,4 +21,16 @@ class SpeakersController < ApplicationController
   def edit
     @speaker = Speaker.find(params[:id])
   end
+  def update
+    @speaker = Speaker.find(params[:id])
+
+
+    if @speaker.update_attributes(params[:speaker])
+      flash[:success] = "Speaker Updated Successfully"
+      redirect_to speaker_path(@speaker)
+    else
+      render 'edit'
+    end
+
+  end
 end

@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81a9f17d-c7dd-415e-89a5-1143783a2c83" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/islamic_events/create.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/speakers/new.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/speakers/show.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/requests/speaker_pages_spec.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/views/speakers/all.html.erb_spec.rb" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/speakers/all.html.erb" afterPath="$PROJECT_DIR$/app/views/speakers/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/islamic_events.iml" afterPath="$PROJECT_DIR$/.idea/islamic_events.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/islamic_events/home.html.erb" afterPath="$PROJECT_DIR$/app/views/islamic_events/home.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/speakers/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/speakers/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/speakers/index.html.erb" afterPath="$PROJECT_DIR$/app/views/speakers/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/speakers/new.html.erb" afterPath="$PROJECT_DIR$/app/views/speakers/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/speaker_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/speaker_pages_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/speakers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/speakers_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -39,7 +31,7 @@
     <file path="/event.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378671671851" ignored="false" />
     <file path="/islamic_events_controller.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378674634128" ignored="false" />
     <file path="/all.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378689814494" ignored="false" />
-    <file path="/speakers_controller.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379204454052" ignored="false" />
+    <file path="/speakers_controller.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379211205998" ignored="false" />
     <file path="/create.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378686652819" ignored="false" />
     <file path="$PROJECT_DIR$/../sample_app/app/models/user.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379012508505" ignored="false" />
     <file path="/user.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1378964623950" ignored="false" />
@@ -65,10 +57,11 @@
     <file path="$PROJECT_DIR$/../sample_app/app/helpers/users_helper.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379104834454" ignored="false" />
     <file path="/users_helper.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379104834454" ignored="false" />
     <file path="$PROJECT_DIR$/../sample_app/app/views/users/new.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379156723519" ignored="false" />
-    <file path="/new.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379203825396" ignored="false" />
+    <file path="/new.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379206864814" ignored="false" />
     <file path="$PROJECT_DIR$/../sample_app/app/views/shared/_error_messages.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379156506376" ignored="false" />
-    <file path="/index.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379202987270" ignored="false" />
-    <file path="/speaker_pages_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379205853583" ignored="false" />
+    <file path="/index.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379206755181" ignored="false" />
+    <file path="/speaker_pages_spec.rb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379213311409" ignored="false" />
+    <file path="/edit.html.erb" changelist="81a9f17d-c7dd-415e-89a5-1143783a2c83" time="1379206961401" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,28 +81,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="islamic_events_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/islamic_events_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="23" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="speakers_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/speakers_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="40" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+            <state line="27" column="33" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="speaker_pages_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="speaker_pages_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/requests/speaker_pages_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="72" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+            <state line="66" column="39" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.8856707">
               <folding />
             </state>
           </provider>
@@ -124,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/islamic_events/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="52" selection-start="534" selection-end="534" vertical-scroll-proportion="0.45094937">
+            <state line="19" column="52" selection-start="534" selection-end="534" vertical-scroll-proportion="-11.875">
               <folding />
             </state>
           </provider>
@@ -154,16 +138,29 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/speakers/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="63" selection-start="160" selection-end="160" vertical-scroll-proportion="-3.75">
+            <state line="21" column="86" selection-start="479" selection-end="479" vertical-scroll-proportion="-13.125">
+              <folding>
+                <marker date="1379206767000" expanded="true" signature="98:477" placeholder="..." />
+                <marker date="1379206767000" expanded="true" signature="106:167" placeholder="..." />
+                <marker date="1379206767000" expanded="true" signature="215:458" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/speakers/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/islamic_events/create.html.erb">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/speakers/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="25" selection-start="616" selection-end="616" vertical-scroll-proportion="-13.125">
+            <state line="23" column="42" selection-start="670" selection-end="670" vertical-scroll-proportion="-14.375">
               <folding />
             </state>
           </provider>
@@ -172,14 +169,8 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/speakers/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="9" selection-start="711" selection-end="711" vertical-scroll-proportion="-16.25">
-              <folding>
-                <marker date="1379203844000" expanded="true" signature="126:403" placeholder="..." />
-                <marker date="1379203844000" expanded="true" signature="252:388" placeholder="..." />
-                <marker date="1379203844000" expanded="true" signature="442:518" placeholder="..." />
-                <marker date="1379203844000" expanded="true" signature="543:624" placeholder="..." />
-                <marker date="1379203844000" expanded="true" signature="650:700" placeholder="..." />
-              </folding>
+            <state line="1" column="24" selection-start="0" selection-end="44" vertical-scroll-proportion="-0.625">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -202,22 +193,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/models/event_spec.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/islamic_events_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/islamic_events/create.html.erb" />
         <option value="$PROJECT_DIR$/app/views/speakers/create.html.erb" />
         <option value="$PROJECT_DIR$/app/views/speakers/all.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/speakers/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/speakers/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/speakers/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/speakers_controller.rb" />
         <option value="$PROJECT_DIR$/spec/views/speakers/speaker_pages_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/requests/speaker_pages_spec.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/islamic_events/home.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/speakers/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/speakers/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/speakers/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/speakers/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/speakers_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/requests/speaker_pages_spec.rb" />
       </list>
     </option>
   </component>
@@ -847,13 +838,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/models/speaker_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/speakers/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="-1.25">
@@ -896,13 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/speakers_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/factories.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="11" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
@@ -917,33 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/speakers/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="9" selection-start="711" selection-end="711" vertical-scroll-proportion="-16.25">
-          <folding>
-            <marker date="1379203844000" expanded="true" signature="126:403" placeholder="..." />
-            <marker date="1379203844000" expanded="true" signature="252:388" placeholder="..." />
-            <marker date="1379203844000" expanded="true" signature="442:518" placeholder="..." />
-            <marker date="1379203844000" expanded="true" signature="543:624" placeholder="..." />
-            <marker date="1379203844000" expanded="true" signature="650:700" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/speakers/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="63" selection-start="160" selection-end="160" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/speaker_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="72" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="3" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
@@ -953,7 +903,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/islamic_events/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="534" selection-end="534" vertical-scroll-proportion="0.45094937">
+        <state line="19" column="52" selection-start="534" selection-end="534" vertical-scroll-proportion="-11.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/speakers/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/speakers/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="86" selection-start="479" selection-end="479" vertical-scroll-proportion="-13.125">
+          <folding>
+            <marker date="1379206767000" expanded="true" signature="98:477" placeholder="..." />
+            <marker date="1379206767000" expanded="true" signature="106:167" placeholder="..." />
+            <marker date="1379206767000" expanded="true" signature="215:458" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/speakers/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="42" selection-start="670" selection-end="670" vertical-scroll-proportion="-14.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/speakers/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="24" selection-start="0" selection-end="44" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/speakers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="33" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/speaker_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="39" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.8856707">
           <folding />
         </state>
       </provider>
